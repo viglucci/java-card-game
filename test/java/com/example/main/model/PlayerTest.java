@@ -1,9 +1,8 @@
-package com.example.main;
+package com.example.main.model;
 
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.junit.jupiter.api.Assertions.*;
 
 class PlayerTest {
 
@@ -12,6 +11,7 @@ class PlayerTest {
 		Player player = new Player();
 		player.addCard(new Card("Hearts", "King"));
 		player.addCard(new Card("Spade", "One"));
+
 		assertThat(player.getHand().size()).isEqualTo(2);
 	}
 }

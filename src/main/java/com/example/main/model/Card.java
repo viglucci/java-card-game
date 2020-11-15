@@ -1,4 +1,4 @@
-package com.example.main;
+package com.example.main.model;
 
 public class Card {
 	private final String suit;

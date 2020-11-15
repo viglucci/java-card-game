@@ -1,29 +1,29 @@
-package com.example.main;
+package com.example.main.model;
 
-import com.example.main.Card;
 import org.junit.jupiter.api.Test;
-import static org.assertj.core.api.Assertions.*;
+
+import static org.assertj.core.api.Assertions.assertThat;
 
 public class CardTest {
 
 	@Test
-	void test_can_retrieve_suit()
-	{
+	void test_can_retrieve_suit() {
 		Card card = new Card("Hearts", "King");
+
 		assertThat(card.getSuit()).isEqualTo("Hearts");
 	}
 
 	@Test
-	void test_can_retrieve_face_value()
-	{
+	void test_can_retrieve_face_value() {
 		Card card = new Card("Spades", "One");
+
 		assertThat(card.getFaceValue()).isEqualTo("One");
 	}
 
 	@Test
-	void test_can_retrieve_display_text()
-	{
+	void test_can_retrieve_display_text() {
 		Card card = new Card("Diamonds", "Queen");
+
 		assertThat(card.getDisplayText()).isEqualTo("Queen of Diamonds");
 	}
 }
