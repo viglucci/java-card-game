@@ -18,6 +18,18 @@ Tommy has the below cards in their hand:
   Queen of Spades
 ```
 
+## Challenge
+
+Fork this repository and implement the Java class methods that satisfy all of the unit tests in the `tests/` directory.
+
+## Java Version
+
+This project expects Java version `11` or greater. You can modify the Java version in `pom.xml` to match your installed version of Java by editing the `<release>11</release>` value for the `<artifactId>maven-compiler-plugin</artifactId>` plugin.
+
+### IDE
+
+This project was setup with the IntelliJ IDEA IDE in mind, however you should be able to run Maven commands without IntelliJ IDEA if you have Maven installed on your machine.
+
 ## Branches
 
 - The `main` branch has failing tests which need implementation to satisfy.
