@@ -31,22 +31,4 @@ class DeckTest {
 		assertThat(deck.size()).isEqualTo(52);
 		assertThat(topCard.getSuit()).isNotNull();
 	}
-
-	@Test
-	void test_can_shuffle_deck() {
-		Deck deck = Deck.generate();
-		Card topCard = deck.peekCard();
-
-		assertThat(deck.size()).isEqualTo(52);
-		assertThat(topCard.getSuit()).isEqualTo("Spades");
-		assertThat(topCard.getFaceValue()).isEqualTo("King");
-
-		deck.shuffle();
-
-		Card newTopCard = deck.peekCard();
-
-		assertThat(deck.size()).isEqualTo(52);
-		assertThat(newTopCard.getFaceValue()).isNotEqualTo(topCard.getFaceValue());
-		assertThat(newTopCard.getSuit()).isNotEqualTo(topCard.getSuit());
-	}
 }

@@ -42,7 +42,7 @@ public class Deck {
 		return cards.peek();
 	}
 
-	public void shuffle() {
-		Collections.shuffle(cards);
+	public Stack<Card> getCards() {
+		return this.cards;
 	}
 }
