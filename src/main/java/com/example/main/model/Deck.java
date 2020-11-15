@@ -13,7 +13,15 @@ public class Deck {
 	}
 
 	/**
-	 * Retrievees the next card from the Deck.
+	 * Adds the given card to the deck.
+	 * @return void
+	 */
+	public void addCard(Card card) {
+
+	}
+
+	/**
+	 * Retrieves the next card from the Deck.
 	 * @return
 	 */
 	public Card getNext() {
