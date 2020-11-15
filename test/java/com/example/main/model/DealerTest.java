@@ -9,7 +9,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 class DealerTest {
 
 	@Test
-	void getDeck() {
+	void test_can_retrieve_the_deck() {
 		Dealer dealer = new Dealer(Deck.generate());
 
 		assertThat(dealer.getDeck())
