@@ -1,6 +1,8 @@
 # java-card-game
 
-Basic Java program that produces the below output.
+Introductory Java programming challenge to implement a "card game" where a dealer shuffles a deck of cards and then deals "hands" to each player.
+
+The running program with all tests passing should produce the below output:
 
 ```
 Nick has the below cards in their hand:
