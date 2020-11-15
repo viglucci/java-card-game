@@ -5,32 +5,53 @@ import java.util.List;
 
 public class Player {
 
-	private String name = "";
-	private List<Card> hand = new ArrayList<>();
-
 	public Player() {}
 
+	/**
+	 * Create a player given a name.
+	 * @param name
+	 */
 	public Player(String name) {
-		this.name = name;
+
 	}
 
+	/**
+	 * Create a player given list of cards.
+	 * @param hand
+	 */
 	public Player(List<Card> hand) {
-		this.hand = hand;
+
 	}
 
-	public void addCard(Card card) {
-		hand.add(card);
+	/**
+	 * Adds a card to the players hand.
+	 * @param card
+	 */
+	public void addCardToHand(Card card) {
+
 	}
 
+	/**
+	 * Returns the list of cards in the players hand.
+	 * @return
+	 */
 	public List<Card> getHand() {
-		return hand;
+
 	}
 
+	/**
+	 * Replaces the players hand with a new list of cards.
+	 * @param newHand
+	 */
 	public void replaceHand(List<Card> newHand) {
-		hand = newHand;
+
 	}
 
+	/**
+	 * Returns the players name;
+	 * @return
+	 */
 	public String getName() {
-		return name;
+
 	}
 }
