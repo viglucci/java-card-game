@@ -49,3 +49,6 @@ target
 # Gradle
 .idea/**/gradle.xml
 .idea/**/libraries
+
+# Maven
+.idea/**/jarRepositories.xml
