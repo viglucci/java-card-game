@@ -20,9 +20,9 @@ public class Main {
      * Tommy has the below cards in their hand:
      *   King of Hearts
      *   Six of Diamonds
-     *   One of Clubs
+     *   Ace of Clubs
      *   Queen of Spades
-     *   One of Hearts
+     *   Two of Hearts
      */
     public static void main(String[] args) {
         Deck deck = Deck.generate();
